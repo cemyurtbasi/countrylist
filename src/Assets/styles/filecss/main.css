@@ -1,0 +1,190 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+input,
+tr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  line-height: 1;
+  font-family: "caseStudyFontFamily";
+  font-size: 14px;
+  color: black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+[data-theme-color=dark] html,
+[data-theme-color=dark] body,
+[data-theme-color=dark] div,
+[data-theme-color=dark] span,
+[data-theme-color=dark] applet,
+[data-theme-color=dark] object,
+[data-theme-color=dark] iframe,
+[data-theme-color=dark] h1,
+[data-theme-color=dark] h2,
+[data-theme-color=dark] h3,
+[data-theme-color=dark] h4,
+[data-theme-color=dark] h5,
+[data-theme-color=dark] h6,
+[data-theme-color=dark] p,
+[data-theme-color=dark] blockquote,
+[data-theme-color=dark] pre,
+[data-theme-color=dark] a,
+[data-theme-color=dark] abbr,
+[data-theme-color=dark] acronym,
+[data-theme-color=dark] address,
+[data-theme-color=dark] big,
+[data-theme-color=dark] cite,
+[data-theme-color=dark] code,
+[data-theme-color=dark] del,
+[data-theme-color=dark] dfn,
+[data-theme-color=dark] em,
+[data-theme-color=dark] font,
+[data-theme-color=dark] img,
+[data-theme-color=dark] ins,
+[data-theme-color=dark] kbd,
+[data-theme-color=dark] q,
+[data-theme-color=dark] s,
+[data-theme-color=dark] samp,
+[data-theme-color=dark] small,
+[data-theme-color=dark] strike,
+[data-theme-color=dark] sub,
+[data-theme-color=dark] sup,
+[data-theme-color=dark] tt,
+[data-theme-color=dark] var,
+[data-theme-color=dark] b,
+[data-theme-color=dark] u,
+[data-theme-color=dark] i,
+[data-theme-color=dark] center,
+[data-theme-color=dark] dl,
+[data-theme-color=dark] dt,
+[data-theme-color=dark] dd,
+[data-theme-color=dark] ol,
+[data-theme-color=dark] ul,
+[data-theme-color=dark] li,
+[data-theme-color=dark] fieldset,
+[data-theme-color=dark] form,
+[data-theme-color=dark] label,
+[data-theme-color=dark] legend,
+[data-theme-color=dark] table,
+[data-theme-color=dark] caption,
+[data-theme-color=dark] tbody,
+[data-theme-color=dark] tfoot,
+[data-theme-color=dark] thead,
+[data-theme-color=dark] input,
+[data-theme-color=dark] tr {
+  color: white;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}

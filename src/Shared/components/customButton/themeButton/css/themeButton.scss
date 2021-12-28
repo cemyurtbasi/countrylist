@@ -1,0 +1,37 @@
+.themeButton {
+  cursor: pointer;
+  @extend %displayCenter;
+  &__icon {
+    margin-right: 5px;
+    color: black;
+    [data-theme-color="dark"] & {
+      color: white;
+    }
+  }
+
+  &__text {
+    margin-bottom: 0;
+    display: none;
+    color: black;
+    @include media1200 {
+      font-size: 12px;
+    }
+    @include media1023 {
+      font-size: 11px;
+    }
+    @include media767 {
+      font-size: 10px;
+    }
+    &--light {
+      [data-theme-color="light"] & {
+        display: block;
+      }
+    }
+    &--dark {
+      [data-theme-color="dark"] & {
+        display: block;
+        color: white;
+      }
+    }
+  }
+}

@@ -1,0 +1,132 @@
+%contentWrapper {
+  width: 100%;
+  padding-right: 35px;
+  padding-left: 35px;
+  @include media1023 {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  @include media767 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  @include media359 {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+%displayCenter {
+  display: flex;
+  align-items: center;
+}
+
+%displayJustCenter {
+  display: flex;
+  justify-content: center;
+}
+
+%displayJustBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+%displayCenterCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+%displayCenterAround {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+%displayColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+%displayColumnCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+%displayColumnBetween {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+%displayColumnJustCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+%displayEnd {
+  display: flex;
+  justify-content: flex-end;
+}
+
+%displayEndCenter {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+%displayBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+%displayBetweenCenter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+%displayWrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+%displayWrapBetween {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+%displayFull {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+%imgCoverCenter {
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+%imgContainCenter {
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  -o-background-size: contain;
+}
+
+%backgroundAuto {
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  background-size: auto;
+  -o-background-size: auto;
+}

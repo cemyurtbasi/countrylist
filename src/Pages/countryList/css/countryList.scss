@@ -1,0 +1,20 @@
+.countryList {
+  @extend %contentWrapper;
+  padding-top: 36px;
+  background-color: $backgroundPrimaryLight;
+  min-height: calc(100vh - 80px);
+  [data-theme-color="dark"] & {
+    background-color: $backgroundSecondaryDark;
+  }
+
+  &-container {
+    width: 100%;
+    height: 100%;
+    padding-top: 36px;
+    @extend %displayBetween;
+    flex-wrap: wrap;
+    .ant-spin {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,78 @@
+.countrySearchArea {
+  min-width: 250px;
+  @include media1023 {
+    width: 100% !important;
+  }
+  &__search {
+    width: 100%;
+    box-shadow: 0px 0px 2px 0px #00000040;
+    border-radius: 5px !important;
+    .ant-select-selector {
+      padding-left: 20px !important;
+      border: none !important;
+      box-shadow: none !important;
+      outline: none !important;
+      height: 48px !important;
+      background-color: white !important;
+      border-radius: 5px !important;
+      [data-theme-color="dark"] & {
+        background-color: $backgroundPrimaryDark !important;
+        color: #fff !important;
+      }
+    }
+    .ant-select-arrow {
+      right: 20px !important;
+      svg {
+        [data-theme-color="dark"] & {
+          color: white !important;
+        }
+      }
+    }
+    .ant-select-selection-placeholder,
+    .ant-select-selection-item {
+      line-height: 45px !important;
+    }
+    .ant-select-selection-search-input,
+    .ant-select-selection-item {
+      [data-theme-color="dark"] & {
+        color: #fff !important;
+      }
+    }
+
+    &--dropDown {
+      background-color: white !important;
+      border-radius: 5px !important;
+      [data-theme-color="dark"] & {
+        background-color: $backgroundPrimaryDark !important;
+        color: #fff !important;
+      }
+      .ant-select-item {
+        transition: all 0s ease !important;
+      }
+      .ant-select-item-option {
+        &-selected,
+        &-active {
+          transition: all 0s ease !important;
+          [data-theme-color="dark"] & {
+            background-color: #548db5 !important;
+          }
+          .ant-select-item-option-content {
+            [data-theme-color="dark"] & {
+              background-color: #548db5 !important;
+            }
+          }
+        }
+        &-content {
+          transition: all 0s ease !important;
+          padding-left: 10px !important;
+          padding-top: 5px !important;
+          padding-bottom: 5px !important;
+          [data-theme-color="dark"] & {
+            background-color: $backgroundPrimaryDark !important;
+            color: #fff !important;
+          }
+        }
+      }
+    }
+  }
+}

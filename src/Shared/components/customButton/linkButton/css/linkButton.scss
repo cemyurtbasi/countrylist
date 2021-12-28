@@ -1,0 +1,20 @@
+.linkButton {
+  height: 38px;
+  @extend %displayCenter;
+  padding: 12px;
+  box-shadow: 0px 0px 15px -8px grey;
+  width: max-content;
+  [data-theme-color="dark"] & {
+    box-shadow: 0px 0px 15px -8px black;
+    background-color: $backgroundPrimaryDark;
+  }
+  &__icon {
+    color: black;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    [data-theme-color="dark"] & {
+      color: white;
+    }
+  }
+}
